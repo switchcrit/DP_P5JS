@@ -29,7 +29,7 @@ function setup() {
 
 function draw() {
   // Update the x position of image 1 based on the current time
-  xPos = map(sin(millis() / 4000.0), -1, 1, 0, width - img1.width);
+  xPos = map(sin(millis() / 7000.0), -1, 1, 0, width - img1.width);
 
   // Draw the first image to the screen
   image(img1, xPos, 0);
